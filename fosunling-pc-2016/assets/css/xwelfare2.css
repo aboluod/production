@@ -1,0 +1,21 @@
+/*banner*/
+.xw-container .xw-banner{width:100%;height:358px;background:url(../images/xwelfare2/xw_banner.jpg) no-repeat center center;min-width:1180px;}
+/*创富人生计划和好运榜*/
+.xw-container .xw-list-wrap{margin-top:20px;}
+.xw-life,.xw-surprise{width:576px;height:261px;}
+.xw-life{background:url(../images/xwelfare2/xw_life_bg.png) no-repeat center center;}
+.xw-surprise{background:url(../images/xwelfare2/xw_sur_bg.png) no-repeat center center;}
+.xw-left{padding:25px 0 0 24px;width:182px;}
+.xw-left .xw-left-p{color:#c2e7fc;padding:14px 0 18px 0;}
+.xw-left a{display:inline-block;width:104px;height:30px;background-color:#9dd9fb;color:#0a82c7;text-align:center;line-height:30px;font-size:14px;border-radius:3px;}
+.xw-right{padding:18px 0 0 30px;}
+.xw-right ul{padding:10px 0 0 10px;}
+.xw-right ul li{line-height:2.3;}
+.xw-surprise .xw-left p{color:#fde6d7;}
+.xw-surprise .xw-left a{background-color:#fdd7c0;color:#ca6433;}
+/*星白赚、星佳人、星乐龄*/
+.xw-container .xw-star-wrap{margin:20px auto;}
+.xw-star-wrap ul li{width:326px;background-color:#fff;padding:22px 25px 42px;float:left;color:#666;margin-right:24px;cursor:pointer;}
+.xw-star-wrap ul .xw-last-li{margin-right:0;}
+.xw-star-wrap ul li img{padding:20px 0 15px 0;}
+.xw-star-wrap ul li p{line-height:2;}

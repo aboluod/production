@@ -1,0 +1,160 @@
+/* 基于Layui的轻量级问答社区页面模版
+*/
+/* 公用 */
+html{overflow: auto;background-color: #f5f7f7;}
+html body{margin-top: 65px;margin:65px 0 0 0;padding:0;}
+body{line-height: 24px;-webkit-font-feature-settings: 'kern' 1;-moz-font-feature-settings: 'kern' 1;text-rendering: geometricPrecision;font-family: "Microsoft Yahei",PingHei,"Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;font-size: 14px;}
+body input,
+body textarea{box-shadow: none;}
+/* 清除浮动 */
+.clearfix:after{visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;overflow: hidden;}
+a:hover{color:red}
+.fr{float:right}
+.fl{float:left}
+.cn1180{width:1180px;}
+/*超出宽度后隐藏*/
+.cut{white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+/*btn*/
+.btn-nobg{cursor:pointer;display: block;height: 46px;line-height: 46px;text-align: center;border-radius: 5px;border: 1px solid #E71F19;}
+.btn-nobg:hover{background-color:#ef1719;color:#fff;}
+.main{width: 1180px;min-height: 600px;margin: 0 auto 15px;margin-top: 75px;}
+/* 头部 */
+.header{position: fixed;z-index: 9999;left: 0;top: 0;width: 100%;height: 65px;background-color: #fff;}
+.header .main{position: relative;margin: 0 auto;min-height: 0;}
+.logo{position: absolute;top:10px;left: 0;width: 386px;height: 45px;text-indent: -666px;background: url(../../assets/images/common/logo.png) no-repeat;background-size:386px 45px;}
+.nav{position: absolute;top: 18px;right: 0;}
+.nav a{padding: 0 15px;font-size: 16px;color: #999;}
+.nav a i{position: relative;top: 5px;padding-right: 3px;font-size: 26px;}
+.nav a:hover{transition: all .4s;}
+.nav a:hover,
+.nav .nav-this{color: #000;}
+/* 底部 */
+.footer{min-width: 1180px;margin:0px;padding: 31px 0;line-height: 30px;text-align: center;color: #aab4c8;background-color: #3f495c;}
+.footer a{padding: 0 6px;font-weight: 300;color: #333;}
+.footer a:hover{color: #777;}
+.container{}
+.container-banner img{width: 100%;height: 209px}
+.container-warp{padding-top: 10px;}
+.container-warp .left,
+.container-warp .right,
+.container-warp .middle{height: auto;min-height: 600px;background-color: white;}
+.container-warp .left{width: 252px;float: left;/*height: 800px;min-height: 800px;*/}
+.container-warp .right{width: 314px;float: right;}
+.container-warp .middle{width: 594px;float: right;margin-right: 10px;position: relative;}
+.container-warp .aboutus{width: 918px;margin-right: 0px;}
+.layui-info{display: block;line-height: 80px;font-size: 24px;text-align: center;border-bottom: 3px solid #F5F7F7;}
+/** 导航菜单 **/
+.layui-nav-child dd{position: relative;}
+.layui-nav-child dd.layui-this{background-color: #5FB878;color: #fff;}
+.layui-nav-child dd.layui-this a{color: #333;}
+.layui-nav-child dd.layui-this:after{display: none;}
+/* 垂直导航菜单 */
+.layui-nav-tree{width: 100%;padding: 0;margin-top: 10px;background: #fff;}
+.layui-nav-tree .layui-nav-item{display: block;width: 100%;line-height: 45px;}
+.layui-nav-tree .layui-nav-item a{height: 45px;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;padding-left: 45px;color: #000;}
+.layui-nav-tree .layui-nav-item a:hover{/*background-color: #e6e6e6;*/background-color: #fff;color: #f95050;}
+.layui-nav-tree .layui-nav-bar{width: 5px;height: 0;}
+.layui-nav-tree .layui-this,
+.layui-nav-tree .layui-this>a,
+.layui-nav-tree .layui-this>a:hover,
+.layui-nav-tree .layui-nav-child dd.layui-this{/*background-color: #e6e6e6;*/background-color: #fff;color: #f95050;font-weight: 700;}
+.layui-nav-tree .layui-this:after{display: none;}
+.layui-nav-tree .layui-nav-title a,
+.layui-nav-tree .layui-nav-title a:hover,
+.layui-nav-itemed>a{background-color: #a3a3a3 !important;}
+.layui-nav-tree .layui-nav-bar{background-color: #f95050;}
+.layui-nav-tree .layui-nav-child{position: relative;z-index: 0;top: 0;border: none;box-shadow: none;}
+.layui-nav-tree .layui-nav-child a{height: 40px;line-height: 40px;}
+.layui-nav-tree .layui-nav-child a{color: #000;}
+.layui-nav-tree .layui-nav-child a:hover,
+.layui-nav-tree .layui-nav-child{background: none;color: #000;}
+.layui-nav-tree .layui-nav-more{top: 20px;right: 10px;}
+.layui-nav-itemed .layui-nav-more{top: 14px;}
+.layui-nav-itemed .layui-nav-child{display: block;padding: 0;}
+.layui-nav-itemed .layui-nav-child a{padding-left: 60px;}
+.layui-elem-quote{font-size: 20px;padding: 8px;border-left: 5px solid red !important;background-color: #fff !important;}
+.layui-laypage .layui-laypage-curr .layui-laypage-em {background-color: #f95050;}
+
+/*自定义其它样式*/
+/*帮助中心*/
+.middle-approve,
+.middle-selfservice,
+.middle-problem{display: inline-block;font-size: 24px;margin-top: 40px;margin-left: 30px;padding-left: 26px;border-left: 2px solid red;}
+.middle-line{display: inline-block;width: 536px;margin-left: 30px;margin-top: 25px;border-bottom: 1px solid #EEEEEE;}
+.middle-details{margin-left: 30px;margin-top: 15px;}
+.middle-details li{display: inline-block;vertical-align: middle;width: 31%;padding: 20px 0;margin-right: -1px;margin-bottom: -1px;font-size: 14px;text-align: center;color: #666;transition: all .3s;-webkit-transition: all .3s;}
+.middle-details li:hover{-webkit-box-shadow: 0 0 10px rgba(192, 192, 192, .5);-moz-box-shadow: 0 0 10px rgba(192, 192, 192, .5);box-shadow: 0 0 10px rgba(192, 192, 192, .5);cursor: pointer;}
+.middle-details li a{display: block;}
+.middle-details li a div{margin-top: 5px;}
+.middle-details li a:hover{color: #eb5c5c;}
+.middle-bottom{margin:15px 15px 15px 30px;}
+.middle-bottom li{display: inline-block;}
+.middle-bottom li div{font-size: 16px;font-weight: 700;line-height: 50px;}
+.middle-bottom ol{width: 514px;padding: 10px;background: #F6F6F6;}
+.middle-bottom ol li{display: inline-block;vertical-align: middle;width: 23%;padding: 5px 0;margin-right: -1px;margin-bottom: -1px;font-size: 14px;text-align: center;color: #666;transition: all .3s;-webkit-transition: all .3s;}
+.middle-ul{margin:15px 15px 15px 30px;}
+.middle-ul li{line-height: 35px;}
+.middle-ul li a{border: 4px solid #8d8e7a;margin-right: 8px;}
+.middle-ul li span{cursor: pointer;}
+.middle-ul li span:hover{color:#8d8e7a;}
+.middle-ul li div.hidden{display: none;line-height: 25px;padding: 20px;background: #F6F6F6;}
+.right-line{display: inline-block;width: 253px;margin:15px 15px 15px 30px;border-bottom: 1px solid #EEEEEE;}
+.right-tel-worktime,.right-publicnumber{text-align: center;font-size: 14px;}
+.right-tel-worktime p,.right-publicnumber p{line-height: 30px;}
+.right-tel-worktime .tel{font-size: 26px;}
+/*关于我们*/
+.aboutus .clearfix p{text-indent: 0;}
+.aboutus p{line-height: 25px;text-indent: 30px; font-size: 14px; padding-bottom: 20px;}
+.aboutus p.gi-pd-p{text-align: center;text-indent: 0px;font-size: 20px;font-weight: 700;margin-top: 30px;}
+.aboutus img.groupins-img{width: 100%; height: 500px; margin-bottom: 10px;}
+.aboutus .right-line{width: 860px;}
+.aboutus .platformhonor table.layui-table td, .aboutus .platformhonor table.layui-table th{border: 0px;background: #f6f6f6;}
+.aboutus dl dt{display: block;cursor: pointer;line-height: 35px;border-bottom: 1px dashed #9c9c9c;}
+.aboutus dl dd{display: none;padding: 10px;background: #f6f6f6;margin-bottom: 10px;}
+.aboutus dl dd p{padding: 0px;}
+.notice .layui-tab{margin-top: 40px; margin-left: 30px;}
+.notice .layui-tab-brief>.layui-tab-title .layui-this{color: #f95050;}
+.notice .layui-tab-brief > .layui-tab-title .layui-this:after
+,.notice .layui-tab-brief > .layui-tab-more li.layui-this:after{border: none; border-radius: 0; border-bottom: 3px solid #f95050;}
+.fpage{width: 100%;text-align: right;}
+
+/*mobileapp mobileapp-container*/
+.mobileapp-container .mobileapp-banner{width: 100%;height: 645px;background: url(../../assets/images/mobileapp/banner.jpg) no-repeat center center;position: relative;}
+.mobileapp-container .banner-content{width:520px;position: absolute;top: 90px;left: 50%;}
+.mobileapp-container .banner-content .app{font-size: 44px;color: #fff;margin-top: 10px}
+.mobileapp-container .banner-content .valueadd{margin-top: 50px;color:#fff;font-size: 30px}
+.mobileapp-container .client{width: 292px;float: left;}
+.mobileapp-container .client a{display:block;margin-top: 30px}
+.mobileapp-container .weixin{margin-top:60px;float: right;}
+
+/*安全保障*/
+.security-container .security-banner{width: 100%;height: 600px;background: url(../../assets/images/security/banner.jpg) no-repeat center center;min-width:1180px;}
+.security-container .security-content{margin-top: 68px;width: 980px; margin: 0 auto;}
+.security-container .security-content table{margin-top: 50px;}
+.security-container .security-content tr{height: 145px;}
+.security-container .security-content td i{font-size:100px;color: #d60808;width: 130px;height: 130px;position: relative;top:20px;left: 10px;}
+.security-container .security-content td p.title{font-size:26px;}
+.security-container .security-content td p.content{font-size:14px;margin-top: 30px}
+
+/*星之灵*/
+.afsl-container .afsl-info{width:100%;height:526px;background:url(../../assets/images/aboutfosunling-safe/about_fosunling01.jpg) no-repeat center center;color:#fff;}
+.afsl-container .afsl-box-content{width:1010px;height:526px;padding:0 80px 0 90px;margin:0 auto;}
+.afsl-info .afsl-box-content .afsl-info-p1{padding-top:75px;font-size: 36px;}
+.afsl-info .afsl-box-content .afsl-info-p2{padding-top:40px;font-size: 36px;}
+.afsl-info .afsl-box-content .afsl-info-p3{padding-top:55px;line-height:1.5;font-size: 18px;}
+.afsl-info .afsl-box-content .afsl-info-p4{padding-top:45px;line-height:1.5;font-size: 18px;}
+.afsl-container .afsl-xlicai{width:100%;height:500px;background:url(../../assets/images/aboutfosunling-safe/about_fosunling02.jpg) no-repeat center center;color:#000}
+.afsl-container .afsl-xwelfare{width:100%;height:655px;background:url(../../assets/images/aboutfosunling-safe/about_fosunling03.jpg) no-repeat center center;}
+.afsl-xwelfare .afsl-box-content{width:1060px;padding:0 30px 0 90px;}
+.afsl-xwelfare .afsl-box-content .afsl-width{padding-top:70px;}
+.afsl-container .afsl-xenjoy{width:100%;height:758px;background:url(../../assets/images/aboutfosunling-safe/about_fosunling04.jpg) no-repeat center center;color:#fff;}
+.afsl-xenjoy .afsl-box-content .afsl-width{padding-top:175px;}
+.afsl-xenjoy .afsl-box-content .afsl-width-btn{border:1px solid #fff;color:#fff;}
+.afsl-xenjoy .afsl-box-content .afsl-width-btn:hover{background-color:#c93438!important;}
+.afsl-container .afsl-corporate{width:100%;height:576px;background:url(../../assets/images/aboutfosunling-safe/about_fosunling05.jpg) no-repeat center center;}
+.afsl-corporate .afsl-box-content{width:1050px;padding:0px 40px 0 90px;}
+.afsl-corporate .afsl-box-content .afsl-width{padding-top:130px;}
+.afsl-container .afsl-width{width:480px;float: left;}
+.afsl-width .afsl-width-p1{padding-top:130px;font-size: 30px;}
+.afsl-width .afsl-width-p2{padding:42px 0 50px 0;line-height:1.3;font-size: 24px;}
+.afsl-width-btn{width:236px;height:60px;line-height:60px;color:#ef1719;font-size:20px;font-weight:100;}

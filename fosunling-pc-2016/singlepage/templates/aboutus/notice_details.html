@@ -1,0 +1,18 @@
+<div class='main' style="background: #fff" ng-init='noticeList'>
+	<div class="middle-approve" style="width: 1100px;">
+		<div style="width: 1000px; float: left;"
+			ng-bind='title | cut:true:30:" ..."'></div>
+		<div style="width: 100px; float: right; text-align: right;" >
+			<a href="javascript:;" style="font-size: 14px;" ng-click="noticelist()">返回列表 <i
+				class="iconfont icon-yijianfankui"></i></a>
+		</div>
+	</div>
+	<div class="right-line" style="width: 1130px"></div>
+	<div class="middle-details aboutus clearfix">
+		<div style="min-height: 600px;width: 1130px;">
+			<div class="notice-wrap notice-details-wrap">
+				<div ng-bind-html='content'></div>
+			</div>
+		</div>
+	</div>
+</div>

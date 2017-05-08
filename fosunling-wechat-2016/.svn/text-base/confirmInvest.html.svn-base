@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection"content="telephone=no, email=no" />
+	<title>确认投资</title>
+	<link rel="stylesheet" href="css/mui.min.css" />
+	<link rel="stylesheet" href="css/app.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<script src="js/mui.min.js"></script>
+	<script src="js/fosunling.js"></script>
+</head>
+<body class="confirmInvest-body" id="body">
+	<header class="mui-bar mui-bar-nav">
+	    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+	    <h1 class="mui-title">确认投资</h1>
+	</header>
+	<!--产品div start-->
+	<div class="confirmInvest-product">
+		<div class="cI-product-wrap">
+			<h2>安星投160415A</h2>
+			<div class="cI-productDetail clearfix">
+				<div class="cI-productDetail-left">
+					<p class="color-orange"><span class="span-font">6</span>.00%</p>
+					<p class="p-padding cI-color cI-font">预期年化收益率</p>
+				</div>
+				<div class="cI-productDetail-right">
+					<p class="p-time">2016年10月01日之前</p>
+					<p class="cI-color cI-font">资金到账时间</p>
+				</div>
+			</div>
+		</div>
+	</div><!--产品div end-->
+	
+	<!--投资列表div start-->
+	<div class="cI-invest">
+		<ul class="mui-table-view">
+				 <li class="mui-table-view-cell">
+				 	<div class="cI-invest-left">
+				 		投资金额
+				 	</div>
+				 	<div class="cI-invest-right">
+				 		<span class="cI-color">2000元</span>
+				 	</div>
+				 </li>		         
+		         <li class="mui-table-view-cell mui-collapse"><a class="mui-navigate-right" href="#">
+		         	<div class="cI-invest-left">投资抵用券</div>
+		         	<div class="cI-invest-right color-orange p-r-15px">有可用</div>
+		         </a>
+						<ul class="mui-table-view mui-table-view-chevron">
+							<li class="mui-table-view-cell"><a class="mui-navigate-right a-fs" href="#">有可用</a>
+							</li>
+							<li class="mui-table-view-cell"><a class="mui-navigate-right a-fs" href="#">无可用</a>
+							</li>
+						</ul>
+				</li>
+				<li class="mui-table-view-cell">
+					<div class="cI-invest-left">
+				 		付款金额
+				 	</div>
+				 	<div class="cI-invest-right">
+				 		<span class="color-orange">19900</span><span class="cI-color">元</span>
+				 	</div>
+				</li>
+			</ul>
+			<div class="cI-agreement">
+				<input type="checkbox" checked="checked"/>我已经阅读并同意&nbsp;&nbsp;&nbsp;
+				<a href="#" class="cI-agreement-a">《债券转让协议》</a>
+			</div>
+			<div class="cI-btnDiv">
+				<a href="recharge.html" class="cI-a-btn">投资</a>
+			</div>			
+	</div><!--投资列表div end-->
+</body>
+</html>

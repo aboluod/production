@@ -1,0 +1,115 @@
+<div class="main">
+	<div class="container">
+		<div class="container-banner">
+			<img src="../assets/images/helpcenter/banner.png" />
+		</div>
+		<div class="container-warp clearfix">
+			<div class="left">
+				<div class="layui-info">
+					<a href="#/helpcenter/templates/index">帮助中心</a>
+				</div>
+				<ul class="layui-nav layui-nav-tree" lay-filter="helpcenter-tree">
+					<!-- layui-nav-itemed -->
+					<li class="layui-nav-item">
+						<a href="javascript:;">了解星之灵</a>
+						<dl class="layui-nav-child">
+							<dd>
+								<a href="#/helpcenter/templates/platformintroduction">平台简介</a>
+							</dd>
+							<dd>
+								<a href="#/helpcenter/templates/securityguarantee">安全保障</a>
+							</dd>
+							<dd>
+								<a href="#/helpcenter/templates/tariffstandard">资费标准</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="layui-nav-item">
+						<a href="javascript:;">账户管理</a>
+						<dl class="layui-nav-child">
+							<dd>
+								<a href="#/helpcenter/templates/register">注册登录</a>
+							</dd>
+							<dd>
+								<a href="#/helpcenter/templates/approve">实名认证</a>
+							</dd>
+							<dd>
+								<a href="#/helpcenter/templates/bindcard">绑定银行卡</a>
+							</dd>
+							<dd>
+								<a href="#/helpcenter/templates/passwordsetting">密码设置</a>
+							</dd>
+							<dd>
+								<a href="#/helpcenter/templates/investmentsecurities">投资券</a>
+							</dd>
+							<dd>
+								<a href="#/helpcenter/templates/financialplanner">理财师</a>
+							</dd>
+							<dd>
+								<a href="#/helpcenter/templates/mypoints">我的积分</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="layui-nav-item">
+						<a href="">投资理财</a>
+						<dl class="layui-nav-child">
+							<dd>
+								<a href="#/helpcenter/templates/recharge">充值</a>
+							</dd>
+							<dd>
+								<a href="#/helpcenter/templates/withdrawals">提现</a>
+							</dd>
+							<dd>
+								<a href="#/helpcenter/templates/investment">投资</a>
+							</dd>
+							<dd>
+								<a href="#/helpcenter/templates/attorn">转让</a>
+							</dd>
+							<dd>
+								<a href="#/helpcenter/templates/transactionquery">交易查询</a>
+							</dd>
+							<dd>
+								<a href="#/helpcenter/templates/newhandexperience">新手体验产品</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="layui-nav-item">
+						<a href="">产品介绍</a>
+						<dl class="layui-nav-child">
+							<dd>
+								<a href="#/helpcenter/templates/piggybank">存钱罐</a>
+							</dd>
+							<dd>
+								<a href="#/helpcenter/templates/regularmanagement">定期理财</a>
+							</dd>
+							<dd>
+								<a href="#/helpcenter/templates/xenjoy">星尊享</a>
+							</dd>
+							<dd>
+								<a href="#/helpcenter/templates/comfinancial">企业理财</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="layui-nav-item">
+						<a href="https://pay.sina.com.cn/cashdesk-web/view/helper.html?ft=helper" target="_blank">新浪支付帮助</a>
+					</li>
+				</ul>
+			</div>
+			<div class="right">
+				<div class="middle-approve">客服电话</div>
+				<span class="right-line"></span>
+				<div class="right-tel-worktime">
+					<p class="tel">400-111-0198</p>
+					<p>（工作时间:周一至周五 9:00-18:00）</p>
+				</div>
+				<div class="middle-approve">关注我们</div>
+				<span class="right-line"></span>
+				<div class="right-publicnumber">
+					<img src="../assets/images/common/15-1dy.jpg" width="200" height="200" style="border:1px solid #eeeeee"/>
+					<p>关注星之灵公众号</p>
+				</div>
+			</div>
+			<div class="middle" ui-view="middle"></div>
+		</div>
+	</div>
+</div>

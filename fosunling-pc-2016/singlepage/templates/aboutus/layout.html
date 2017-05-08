@@ -1,0 +1,36 @@
+<div class="main">
+	<div class="container">
+		<div class="container-banner">
+			<img src="../assets/images/aboutus/banner.png" width="1180px" />
+		</div>
+		<div class="container-warp clearfix">
+			<div class="left">
+				<div class="layui-info">
+					<a href="#/aboutus/templates/index">关于我们</a>
+				</div>
+				<ul class="layui-nav layui-nav-tree" lay-filter="aboutus-tree">
+					<!-- layui-nav-itemed -->
+					<li class="layui-nav-item">
+						<a href="#/aboutus/templates/index" >关于星之灵</a>
+					</li>
+					<li class="layui-nav-item">
+						<a href="#/aboutus/templates/groupintrpduction" >集团介绍</a>
+					</li>
+					<li class="layui-nav-item">
+						<a href="#/aboutus/templates/platformhonor" >平台荣誉</a>
+					</li>
+					<li class="layui-nav-item">
+						<a href="#/aboutus/notice" >媒体中心</a>
+					</li>
+					<li class="layui-nav-item">
+						<a href="#/aboutus/templates/contactus" >联系我们</a>
+					</li>
+					<li class="layui-nav-item">
+						<a href="#/aboutus/templates/joinus" >加入我们</a>
+					</li>
+				</ul>
+			</div>
+			<div class="middle aboutus" ui-view="middle"></div>
+		</div>
+	</div>
+</div>

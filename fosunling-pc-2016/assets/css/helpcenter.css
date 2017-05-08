@@ -1,0 +1,214 @@
+.container-banner,.container-banner img{
+	width: 1180px;
+	height: 209px
+}
+.container-center{
+	width: 1180px;
+	height: auto;
+	margin-bottom: 46px;
+}
+.center-left{
+	width: 252px;
+	height: auto;
+	background-color:white;
+	min-height:1086px;
+}
+.left-help{
+	width: 252px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	vertical-align:middle;
+	font-size:0;
+}
+.left-help img{
+	margin-right:20px;
+	width:27px;
+	height: 37px;
+	line-height:37px;
+	margin-top: -18px;
+	margin-left:-15px;
+}
+.left-help a{
+	font-size: 24px;
+	display: block;
+}
+.left-manage{
+	width: 252px;
+	height:60px;
+	line-height: 60px;
+	padding-left: 45px;
+	background-color: #F6F6F6;
+	font-size: 20px;
+}
+.center-left ul{
+	padding-top:30px;
+	padding-bottom:36px;
+	margin-left: 45px;
+	font-size: 18px;
+	position: relative;
+}
+.center-left ul .second,.center-left ul .fourth,.center-left ul .sixth{
+	margin:46px 0;
+}
+.center-left a{color:#000;}
+.center-left ul .second a{
+	display: inline-block;
+	width: 207px;
+	color: #000;
+}
+.center-left .left-line{
+	width: 252px;
+	border-bottom: 3px solid white;
+}
+.center-middle{
+	width: 596px;
+	height: auto;
+	background-color:white;
+	position: relative;
+	right: 9px;
+	min-height:1086px;
+}
+.center-middle ul{
+	margin-top: 20px;
+}
+.center-middle ul li:hover{
+	cursor: pointer;
+}
+.center-middle ul .second{
+	margin: 20px 0;
+}
+.center-middle ul .fourth{
+	margin-top: 20px;
+}
+.center-middle li a,.center-middle li span{
+	display: inline-block;
+}
+.center-middle li a{
+	border: 4px solid #8d8e7a;
+	margin-left:30px;
+}
+.center-middle li span{
+	margin-left: 26px;
+	font-size: 16px;
+}
+.center-middle li .hidden,.center-middle li .account,.center-middle li .finance{
+	background-color:#F6F6F6;
+	margin: 20px 0 20px 30px;
+}
+.hidden{
+	width: 500px;
+	display:none;
+	padding:20px;
+}
+.account{
+	width: 536px;
+    padding: 20px 0;
+}
+.center-middle li .account span,.center-middle li .finance span{
+	font-size:14px;
+}
+.account .account-second{
+    margin: 0 70px;
+}
+.account .account-fourth{
+	margin-left: 70px;
+}
+.account .account-fifth,.account .account-sixth{
+	margin-top: 15px;
+}
+.account .account-sixth{
+	margin-left: 57px;
+}
+.finance{
+	width: 536px;
+    padding: 20px 0;
+}
+.finance .finance-second{
+	margin-left: 60px;
+	margin-right:57px;
+}
+.finance .finance-fourth{
+	margin-left: 70px;
+}
+.finance .finance-fifth{
+	margin-top: 15px;
+}
+.middle-details ol{
+	margin-left: 70px;
+	margin-top: 30px;
+}
+.middle-details ol li{
+	width: 98px;
+	height: 130px;
+	display: inline-block;
+	text-align: center;
+}
+.middle-details ol .second,.middle-details ol .fifth{
+	margin: 0 80px;
+}
+.middle-details ol .eighth{
+	margin-left: 80px;
+}
+.middle-details ol .fourth,.middle-details ol .fifth,.middle-details ol .sixth{
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+.middle-details ol li img{
+	width: 96px;
+	height: 96px;
+}
+.middle-details ol li span{
+	display: block;
+	font-size: 16px;
+	margin-left: 0;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.center-right{
+	width: 314px;
+	height: auto;
+	background-color: white;
+	min-height:1086px;
+}
+.right-tel,.right-concern,.middle-approve,.middle-selfservice,.middle-problem{
+	display: inline-block;
+	margin-top: 40px;
+	margin-left: 30px;
+	padding-left:26px;
+	border-left:2px solid red ;
+	font-size: 24px;
+}
+.right-concern{
+	margin-top: 65px;
+}
+.right-line,.middle-line{
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 25px;
+	border-bottom: 1px solid #EEEEEE;
+}
+.middle-line{
+	width:536px;
+}
+.middle-ul li{padding-top:15px;}
+.right-number{
+	text-align: center;
+	font-size: 24px;
+}
+.right-time{
+	text-align: center;
+	font-size: 14px;
+}
+.right-publicnumber{
+	text-align: center;
+}
+.right-publicnumber img{
+	width: 123px;
+	height: 123px;
+	margin-bottom: 20px;
+}
+.right-publicnumber span{
+	display: block;
+	font-size:16px;
+}

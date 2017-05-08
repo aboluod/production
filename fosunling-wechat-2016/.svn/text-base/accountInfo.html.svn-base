@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection"content="telephone=no, email=no" />
+	<title>账户信息</title>
+	<link rel="stylesheet" href="css/mui.min.css" />
+	<link rel="stylesheet" href="css/app.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<script src="js/mui.min.js"></script>
+	<script src="js/fosunling.js"></script>
+</head>
+<body id="body" class="accountInfo-body">
+	<header class="mui-bar mui-bar-nav">
+	    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+	    <h1 class="mui-title">账户信息</h1>
+	</header>
+	<div class="aI-listInfo">
+		<ul class="mui-table-view">
+			<li class="mui-table-view-cell">
+				<a class="mui-navigate-right" href="#">
+					<div class="aI-a-left">实名认证</div>
+					<div class="aI-a-right">未实名</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell">
+				<a class="mui-navigate-right" href="#">
+					<div class="aI-a-left">银行卡</div>
+					<div class="aI-a-right">未绑卡</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell">
+				<a class="mui-navigate-right" href="#">
+					<div class="aI-a-left">手机号码</div>
+					<div class="aI-a-right">151****5250</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell aI-marginTop12">
+				<a class="mui-navigate-right" href="#">
+					<div class="aI-a-left">登录密码</div>
+					<div class="aI-a-right">修改</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell">
+				<a class="mui-navigate-right" href="#">
+					<div class="aI-a-left">交易密码</div>
+					<div class="aI-a-right">未设置</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell aI-marginTop12">
+				<a class="mui-navigate-right" href="#">
+					<div class="aI-a-left">会员等级</div>
+					<div class="aI-a-right">V0</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell">
+				<a class="mui-navigate-right" href="#">
+					<div class="aI-a-left">理财师等级</div>
+					<div class="aI-a-right">钻石理财师</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell aI-marginTop12">
+				<a class="mui-navigate-right" href="#">
+					<div class="aI-a-left">风险承受能力评估</div>
+					<div class="aI-a-right">未评估</div>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="common-btn-wrap aI-marginTop20"><a href="#" class="common-btn-css">安全退出</a></div>
+</body>
+</html>

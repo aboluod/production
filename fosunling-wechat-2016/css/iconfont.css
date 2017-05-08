@@ -1,0 +1,136 @@
+/*底部选项卡图标 start*/
+@font-face {font-family: 'iconfont-footer';
+    src: url('../fonts/iconfont-footer.eot'); /* IE9*/
+    src: url('../fonts/iconfont-footer.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/iconfont-footer.woff') format('woff'), /* chrome、firefox */
+    url('../fonts/iconfont-footer.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../fonts/iconfont-footer.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont-footer{
+    font-family:"iconfont-footer" !important;
+    font-size:24px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*底部选项卡图标 end*/
+/*底部选项卡主页图标 start*/
+@font-face {font-family: 'iconfont-home';
+    src: url('../fonts/iconfont-home.eot'); /* IE9*/
+    src: url('../fonts/iconfont-home.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/iconfont-home.woff') format('woff'), /* chrome、firefox */
+    url('../fonts/iconfont-home.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../fonts/iconfont-home.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont-home {
+    font-family:"iconfont-home" !important;
+    font-size:18px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    margin-bottom: 2px;
+}
+/*底部选项卡主页图标 end*/
+/*我的账户、帮助中心等页面中的小图标 start*/
+@font-face {font-family: 'iconfont-more';
+    src: url('../fonts/iconfont-more.eot'); /* IE9*/
+    src: url('../fonts/iconfont-more.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/iconfont-more.woff') format('woff'), /* chrome、firefox */
+    url('../fonts/iconfont-more.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../fonts/iconfont-more.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont-more {
+    font-family:"iconfont-more" !important;
+    font-size:17px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*我的账户、帮助中心等页面中的小图标 end*/
+/*人民币、美元、前往 start*/
+@font-face {font-family: 'iconfont-moneyMark';
+    src: url('../fonts/iconfont-moneyMark.eot'); /* IE9*/
+    src: url('../fonts/iconfont-moneyMark.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/iconfont-moneyMark.woff') format('woff'), /* chrome、firefox */
+    url('../fonts/iconfont-moneyMark.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../fonts/iconfont-moneyMark.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont-moneyMark {
+    font-family:"iconfont-moneyMark" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*人民币、美元、前往 end*/
+/*喇叭 start*/
+@font-face {font-family: 'iconfont-horn';
+    src: url('../fonts/iconfont-horn.eot'); /* IE9*/
+    src: url('../fonts/iconfont-horn.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/iconfont-horn.woff') format('woff'), /* chrome、firefox */
+    url('../fonts/iconfont-horn.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../fonts/iconfont-horn.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont-horn {
+    font-family:"iconfont-horn" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*喇叭 end*/
+/*银行(各个银行都有) start*/
+@font-face {font-family: 'iconfont-bank';
+    src: url('../fonts/iconfont-bank.eot'); /* IE9*/
+    src: url('../fonts/iconfont-bank.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/iconfont-bank.woff') format('woff'), /* chrome、firefox */
+    url('../fonts/iconfont-bank.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../fonts/iconfont-bank.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont-bank {
+    font-family:"iconfont-bank" !important;
+    font-size:28px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*银行(各个银行都有) end*/
+/*人民币圆形图标 start*/
+@font-face {font-family: 'iconfont-moneyMark';
+    src: url('../fonts/iconfont-moneyMark.eot'); /* IE9*/
+    src: url('../fonts/iconfont-moneyMark.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/iconfont-moneyMark.woff') format('woff'), /* chrome、firefox */
+    url('../fonts/iconfont-moneyMark.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../fonts/iconfont-moneyMark.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont-moneyMark {
+    font-family:"iconfont-moneyMark" !important;
+    font-size:1.1rem;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*人民币圆形图标 end*/
+/*【添加银行卡】两个图标  &#xe652; 和  &#xe628;*/
+@font-face {font-family: 'iconfont-addBank';
+    src: url('../fonts/iconfont-addBank.eot'); /* IE9*/
+    src: url('../fonts/iconfont-addBank.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/iconfont-addBank.woff') format('woff'), /* chrome、firefox */
+    url('../fonts/iconfont-addBank.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../fonts/iconfont-addBank.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont-addBank {
+    font-family:"iconfont-addBank" !important;
+    font-size:30px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title ng-bind="title">星灵财富</title>
+    <link rel="stylesheet" href="../vendor/plugins/layui/css/layui.css" />
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_zb0d1vvf40ksxlxr.css" />
+  	<link rel="stylesheet" href="css/global.css">
+  	<style>
+    [ng-cloak] {
+      display: none;
+    }
+  	</style>
+</head>
+<body ng-cloak>
+<div class="header">
+	<div class="main">
+		<a class="logo" href="javascript:;" title="Fly">星灵资产</a>
+		<div class="nav">
+			<!-- <a href="#/helpcenter/templates/index">
+				<i class="iconfont icon-bangzhuzhongxin1"></i>帮助中心
+			</a> -->
+			<a href="javascript:;" ng-bind='title'></a>
+			<a href="/index">
+				<i class="iconfont icon-fanhuizhuye"></i>返回首页
+			</a>
+		</div>
+	</div>
+</div>
+<div ui-view></div>
+<div class="footer">
+	<p>版权所有 © 上海星灵资产管理有限公司 | 未经许可不得复制、转载或摘编，违者必究! 沪公网安备 31010102002363号 沪ICP备15034802号-1</p>
+	<p>Copyright Shanghai Fosunling Asset Management Co., LTD. ALL Rights Reserved</p>
+	<p>星之灵友情提示：投资有风险！</p>
+	<p>&nbsp;</p>
+	<p>
+		<a href="https://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=dov73ne26zbqq0isy0x1jmpejxgrm7jsb8" target="_blank"><img src="../assets/images/common/copyright01.png" alt="上海工商" /></a>
+		<a href="http://www.itrust.org.cn/Home/Index/itrust_certifi?wm=1420530140" target="_blank"><img src="../assets/images/common/copyright02.png" alt="信" /></a>
+		<a href="http://www.anquan.org/authenticate/cert/?site=www.fosunling.com&at=business" target="_blank"><img src="../assets/images/common/copyright03.png" alt="行业验证" /></a>
+		<a href="http://www.anquan.org/authenticate/cert/?site=www.fosunling.com&at=business" target="_blank"><img src="../assets/images/common/copyright04.png" alt="互联网金融行业认证" /></a>
+	</p>
+</div>
+<script src="../vendor/plugins/layui/layui.js"></script>
+<script src="lib/requirejs/require.js" ></script>
+<script src="bootstrap.js" ></script>
+</body>
+</html>
+

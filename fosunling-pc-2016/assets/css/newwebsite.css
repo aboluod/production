@@ -1,0 +1,77 @@
+.newwebsite-banner{
+	width: 100%;
+	height: 980px;
+	background:url(../images/newwebsite/banner.jpg) no-repeat center center;
+	background-size:cover;
+}
+.newwebsite-content{
+	width: 100%;
+	background-color:#bf2134;
+	padding-bottom: 180px;
+}
+.content-xlwealth{
+	padding-top: 50px;
+}
+.content-xlwealth p a{
+	display: inline-block;
+	font-size: 32px;
+}
+.content-xlwealth .image{
+	margin-left: 45px;
+}
+.content-xlwealth .time{
+	margin-left: 10px;
+	color:#ffd2d3;
+	font-weight: 700;
+}
+.content-xlwealth span{
+	display:block;
+	color:#e5959a;
+	margin-left: 45px;
+	font-size: 18px;
+	margin-top: 20px;
+}
+.content-xlwealth ul{
+	margin-top: 115px;
+}
+.content-xlwealth ul li{
+	display: inline-block;
+	width: 291px;
+	text-align: center;
+	position: relative;
+}
+.content-xlwealth ul li a{
+	display: block;
+	color:#ffd379;
+	font-size: 24px;
+	margin-top: 20px;
+}
+.content-xlwealth ul li a.weight{
+	font-weight: bold;
+}
+.content-xlwealth ul li .financial-hid,.content-xlwealth ul li .welfare-hid,
+.content-xlwealth ul li .enjoyable-hid,.content-xlwealth ul li .businessfinance-hid{
+	width: 291px;
+	height: 285px;
+	background-color: rgba(100,15,26,0.9);
+	position: absolute;
+	top:-18px;
+	left: 0;
+	display: none;
+}
+.hid-title{
+	width:88px;
+	height: 25px;
+	line-height: 25px;
+	color:#FFFFFF;
+	text-align: center;
+	border-left: 4px solid #ffd2d3;
+}
+.hid-content{
+	width:223px;
+	color:#FFFFFF;
+	text-align:justify;
+}
+.businessfinance-hid .hid-title{
+	padding-left:10px;
+}

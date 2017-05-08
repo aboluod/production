@@ -1,0 +1,36 @@
+<div class="notice" style="width: 860px;" >
+	<div class="layui-tab layui-tab-brief" lay-filter="docDemoTabBrief">
+		<ul class="layui-tab-title">
+			<li class="layui-this" ng-click='select(1)'>系统公告</li>
+			<li ng-click='select(2)'>新闻媒体</li>
+		</ul>
+		<div>
+			<table class="layui-table" lay-even="" lay-skin="nob">
+				<colgroup>
+					<col width="80">
+					<col>
+					<col width="180">
+				</colgroup>
+				<tbody>
+					<tr ng-repeat="item in datalist">
+						<td ng-bind='link'>[公告]</td>
+						<td title="{{item.title}}">
+							<div ng-switch on="item.flag">
+								<div ng-switch-when="1">
+									<a href="{{item.url}}"  target="_blank">{{item.title | cut:true:30:' ...'}}</a>
+								</div>
+								<div ng-switch-default>
+									<a href="javascript:;"  ng-click="show(item.id)">{{item.title | cut:true:30:' ...'}}</a>
+								</div>
+							</div>
+							
+						</td>
+						<td>{{item.createtime | date : 'yyyy-MM-dd HH:mm:ss'}}</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- <pager page-count="pageCount" current-page="currentPage" on-page-change="onPageChange()" show-goto="true"></pager> -->
+			<div id="notice-gg" class="fpage"></div>
+		</div>
+	</div>
+</div>

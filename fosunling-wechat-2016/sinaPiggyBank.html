@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection"content="telephone=no, email=no" />
+	<title>新浪存钱罐</title>
+	<link rel="stylesheet" href="css/mui.min.css" />
+	<link rel="stylesheet" href="css/app.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<script src="js/mui.min.js"></script>
+	<script src="js/fosunling.js"></script>
+</head>
+<body class="sinaPiggyBank-body whiteAndLineTap" id="body">
+	<header class="mui-bar mui-bar-nav">
+	    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+	    <h1 class="mui-title">新浪存钱罐</h1>
+	</header>
+	<!--持有资产  start-->
+	<div class="sPB-hasMoney">
+		<h2>持有资产（元）</h2>
+		<p class="sPB-moneyCount">100000.8</p>
+		<!--昨日收益、历史累计收益  start-->
+		<div class="sPB-income-wrap">
+			<div class="sPB-income-left">
+				<h3>昨日收益（元）</h3>
+				<p>300</p>
+			</div>
+			<div class="sPB-income-right">
+				<h3>历史累计收益（元）</h3>
+				<p>5000</p>
+			</div>
+		</div><!--昨日收益、历史累计收益 end-->
+	</div><!--持有资产 end-->
+	<!--选项卡 start-->
+	<div class="mui-content">
+			<div class="sPB-tab">
+				<div id="segmentedControl" class="mui-segmented-control">
+					<a class="mui-control-item mui-active" href="#item1">
+						<h3>近7日年化收益</h3>
+						<p class="color-orange">2.695%</p>
+					</a>
+					<a class="mui-control-item" href="#item2">
+						<h3>万份收益（元）</h3>
+						<p class="color-orange">0.7014</p>
+					</a>
+				</div>
+			</div>
+			<div class="sPB-chart">
+				<!--近7日年化收益 start-->
+				<div id="item1" class="mui-control-content mui-active">
+					<div id="scroll" class="mui-scroll-wrapper">
+						<div class="mui-scroll">
+							<img src="images/chart.png" alt="" class="sPB-img-chart"/>				
+						</div>
+					</div>
+				</div><!--近7日年化收益 end-->
+				<!--万份收益 start-->
+				<div id="item2" class="mui-control-content">
+					<div id="scroll" class="mui-scroll-wrapper">
+						<div class="mui-scroll">
+							第二张表
+						</div>
+					</div>
+				</div><!--万份收益 end-->
+			</div>	
+		</div><!--选项卡 end-->
+		<div class="sPB-introduction">
+			<h3>新浪存钱罐产品介绍</h3>
+			<p>新浪存钱罐是新浪与汇添富基金推出的一款基于货币基金的互联网金融产品。</p>
+			<p>用户在星之灵平台充值时，星之灵接受用户的指令，委托新浪支付在汇添富基金公司开户，并且购买汇添富现金宝货币基金（基金代码000330）。</p>
+			<p>用户的可用余额或投资申请中的冻结余额，均可获得货币基金收益。用户投资到期的回款余额，也将自动获得货币基金收益。</p>
+		</div>
+		<div class="sPB-btn">
+			<a href="#" class="sPB-btn-postal">提现</a>
+			<a href="#" class="sPB-btn-recharge">充值</a>
+		</div>
+</body>
+</html>

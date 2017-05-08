@@ -1,0 +1,118 @@
+.aboutus-center{
+	width:1180px;
+	height: auto;
+	margin-bottom:50px;
+	min-height:700px;
+}
+.center-left{
+	width:255px;
+	height: auto;
+	background-color: white;
+	min-height:700px;
+}
+.left-us{
+	width: 255px;
+	height:100px;
+	line-height: 100px;
+	text-align: center;
+	
+}
+.left-line{
+	display: inline-block;
+	width: 255px;
+	border-bottom:2px solid #f2f2f2;
+}
+.left-details{
+	padding-top:30px;
+	margin-left: 45px;
+	position: relative;
+}
+.left-details .details-li,.left-details .details-li,.left-details .details-li{
+	margin:46px 0;
+}
+.left-details .details-honor{
+	color: #000;
+}
+.left-details .details-honor a{
+	display: inline-block;
+	width: 210px;
+	height: 30px;
+}
+.aboutus-left-a{color:#000;}
+.center-right{
+	width: 915px;
+	height:auto;
+	background-color: white;
+	min-height:700px;
+}
+.right-honor{
+	display: inline-block;
+	margin-top: 40px;
+	margin-left: 30px;
+	padding-left:26px;
+	border-left:2px solid red;
+}
+.right-line{
+	display: inline-block;
+	width:855px;
+	margin-left:30px;
+	margin-top: 25px;
+	border-bottom: 1px solid #EEEEEE;
+}
+.right-body{
+	margin-left:30px;
+}
+.right-body ul li{
+	width:855px;
+	height:215px;
+	background-color: #F2F2F2;
+	margin-top: 20px;
+}
+.right-body ul li:nth-child(2){
+	margin: 20px 0;
+}
+.right-body .honor{
+	box-sizing: border-box;
+	padding: 30px;
+}
+.right-body .describe{
+ width:525px;	
+}
+/*联系我们*/
+.cu-center-right,.join-center-right,.index-center-right,.notice-center-right{
+	width: 915px;
+	height:auto;
+	background-color: white;
+	min-height:700px;
+}
+.cu-center-right p{font-size: 18px;color: #000000;padding-left: 10px;text-indent: 2em;line-height: 40px;}
+.p1{margin-top: 50px;}
+/*集团介绍*/
+.gi-center-right{width:915px;background-color:#fff;}
+.groupins-img{width:95%;height:500px;}
+.gi-center-right p{font-size: 16px;color: #000000;padding-left: 10px;text-indent: 2em;line-height: 30px;}
+.gi-center-right .gi-pd-p{padding:40px 0 30px 0;font-size:18px;font-weight:bold;}
+.gi-center-right h3{font-size: 25px;color: #000000;padding-left: 10px;text-indent: 0em;line-height: 40px;}
+.im{text-align: center;width: 100%;height: 200px;padding-top: 100px;}
+.gi-center-right img{width: 95%;height: 500px;padding-left: 30px;margin-top: 5px;margin-bottom: 5px;}
+.gi-center-right a{color: #EF1719;}
+/*加入我们*/
+.join-mail1{text-align: center;margin-top: 30px;margin-bottom: 30px;font-size: 18px;color: blue;}
+.join-mail1 a{color: #474E5D}
+.join-mail1 a:hover{text-decoration: underline;color: red;}
+.join-list p{font-size: 14px;color: #000000;padding-left: 10px;text-indent: 2em;line-height: 40px;}
+.join-job-name{background: lightgray;width: 100%;text-align: left;font-size: 18px;height: 40px;}
+.join-list{padding-left: 20px;padding-right: 20px;}
+.join-list li{margin-top: 10px;}
+/*关于星之灵*/
+.index-center-right{padding:0 30px;width:855px;}
+.index-center-right p{text-indent:30px;font-size:14px;padding-top:30px;}
+.fosun_imgbox{text-align:center;padding:50px 0;}
+/*平台公告*/
+.notice-wrap{padding: 15px 30px 60px;}
+.notice-wrap .notice-content-wrap .notice-item-group{padding:25px 0;border-bottom:1px solid #eee;}
+.notice-wrap .notice-content-wrap .notice-item-left a:hover{text-decoration:underline;}
+.notice-page{padding-top:20px;}
+/*平台公告详情页*/
+.notice-details-wrap p{font-size:18px;padding-bottom:30px;}
+.notice-details-wrap .notice-end-p{text-align:right;}

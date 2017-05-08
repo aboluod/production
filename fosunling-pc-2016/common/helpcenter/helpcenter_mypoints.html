@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="keywords" content="星之灵，复星星之灵，复星集团，金融理财，互联网理财平台，个人理财，第三方理财，fosunling">
+	<meta name="description" content="复星集团旗下星之灵，星之灵，打造具有产业深度、多维度生态圈特点的综合性互联网投融资信息中介平台，以及为非标资产提供流动性的交易平台。以价值投资的理念为指导，结合风控管理体系，通过提供完整准确的信息，为投资人带来不一样的财富管理体验!fosunling.com">
+	<title>星之灵-复星集团旗下金融平台-帮助中心</title>
+	<link rel="shortcut icon" href="../../assets/images/common/favicon.png" type="image/x-icon" />	
+	<link rel="stylesheet" href="../../assets/css/base.css" />
+	<link rel="stylesheet" href="../../assets/css/helpcenter.css"/>
+	<!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->      
+</head>
+<body>
+	
+	<div id="helpcenter_header"></div>
+	
+	<!--主体内容-->
+	<div class="helpcenter-container cn1180">
+		<!--banner-->
+		<div id="helpcenter_banner"></div>
+			
+		<!--center-->
+		<div class="container-center clearfix">
+			<!--left-->
+			<div id="helpcenter_left"></div>				
+			<!--right-->
+			<div id="helpcenter_right"></div>
+			<!--middle-->
+			<div class="center-middle fr">
+				<span class="middle-approve">我的积分</span>
+				<span class="middle-line"></span>
+				<ul class="middle-ul">
+					<li>
+						<a></a><span>星之灵积分“星币”有什么作用？ </span>
+						<div class="hidden">
+						   <p>星之灵积分“星币”可用于兑换会员权益，可在【账户总览】-【我的积分】中查看详情。</p>
+						
+						</div>
+					</li>
+					
+					</ul>
+					
+				</ul>
+			</div>
+			
+		</div>
+	</div>		
+	<!--主体内容 end-->
+	
+	<!--footer(包括ft-channel和ft-copyright)-->
+	<div id="helpcenter_footer"></div>
+	
+			
+	
+<script src="../../vendor/jquery/jquery-1.11.3.min.js"></script>
+<script src="../../assets/js/fosunBase.js"></script>
+<script>
+$(document).ready(function(){	
+	fosunBase.init();
+	$("#helpcenter_header").load('helpcenter_header.html');
+	$("#helpcenter_footer").load('helpcenter_footer.html');
+	$("#helpcenter_banner").load('helpcenter_banner.html');
+	$("#helpcenter_left").load('helpcenter_left.html');
+	$("#helpcenter_right").load('helpcenter_right.html');
+	$(document).on("click",".middle-ul span",function(){
+		$(this).next().toggle();
+	});
+});
+</script>
+</body>
+</html>

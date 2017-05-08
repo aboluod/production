@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection"content="telephone=no, email=no" />
+	<title>充值绑卡</title>
+	<link rel="stylesheet" href="css/mui.min.css" />
+	<link rel="stylesheet" href="css/app.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/iconfont.css">
+	<script src="js/mui.min.js"></script>
+	<script src="js/fosunling.js"></script>
+</head>
+<body id="body" class="recharge-body">
+	<header class="mui-bar mui-bar-nav">
+	    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+	    <h1 class="mui-title">充值绑卡</h1>
+	</header>
+	<div class="r-main">
+		<ul class="mui-table-view">
+			<li class="mui-table-view-cell">
+				<a class="mui-navigate-right" href="#">
+					<div class="r-a-left">
+						<i class="iconfont-addBank font-colorBlue3">&#xe628;</i>
+					</div>
+					<div class="r-a-right r-paddL12">
+						<p class="fonts14 color-black">添加银行卡</p>
+						<p class="fonts12 color-gray">仅支持储蓄卡，无需开通网银</p>
+					</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell">
+				<div class="r-a-left">
+					<label for="money" class="fonts14">金额</label>
+				</div>
+				<div class="r-a-right">
+					<input type="text" placeholder="本次最多可充值50,000元" id="money" class="r-r-input" />
+				</div>
+			</li>				
+		</ul>
+	</div>
+	<div class="common-btn-wrap aI-marginTop20"><a href="rechargeSuccess.html" class="common-btn-css">立即充值</a></div>
+</body>
+</html>

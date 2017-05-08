@@ -1,0 +1,371 @@
+/*css初始化 start*/
+html{-webkit-text-size-adjust: 100%; font-size: 62.5%;}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input,button, textarea, p, blockquote, th, td, hr{margin: 0; padding: 0; -webkit-box-sizing: border-box;}
+body{font-family: "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif, "Microsoft YaHei"; font-size: 0.7rem; line-height: 1.5; overflow-x: hidden; -webkit-overflow-scrolling: touch;}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary{display: block;}
+audio, canvas, progress, video{display: inline-block; vertical-align: baseline;}
+audio:not([controls]){display: none; height: 0;}
+[hidden], template{display: none;}
+svg:not(:root){overflow: hidden;}
+a{background: transparent; text-decoration: none; -webkit-tap-highlight-color: transparent;}
+a:active{outline: 0;}
+abbr[title]{border-bottom: 0.05rem dotted;}
+b, strong{font-weight: bold;}
+dfn{font-style: italic;}
+mark{background: #ff0; color: #000;}
+small{font-size: 80%;}
+sub, sup{font-size: 75%; line-height: 0; position: relative; vertical-align: baseline;}
+sup{top: -0.5em;}
+sub{bottom: -0.25em;}
+img{border: 0;}
+hr{box-sizing: content-box; height: 0;}
+pre{overflow: auto; white-space: pre; white-space: pre-wrap; word-wrap: break-word;}
+code, kbd, pre, samp{font-family: monospace, monospace; font-size: 1em;}
+button, input, optgroup, select, textarea{color: inherit; font: inherit; margin: 0;}
+button{overflow: visible;}
+button, select{text-transform: none;}
+button, html input[type="button"], input[type="reset"], input[type="submit"]{-webkit-appearance: button; cursor: pointer;}
+button[disabled], html input[disabled]{cursor: default;}
+input{line-height: normal;}
+input[type="checkbox"], input[type="radio"]{box-sizing: border-box; padding: 0;}
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button{height: auto;}
+input[type="search"]{-webkit-appearance: textfield; -webkit-box-sizing: border-box; box-sizing: border-box;}
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration{-webkit-appearance: none;}
+fieldset{border: 0.05rem solid #c0c0c0; margin: 0 0.1rem; padding: 0.35em 0.625em 0.75em;}
+legend{border: 0; padding: 0;}
+textarea{overflow: auto; resize: vertical;}
+optgroup{font-weight: bold;}
+table{border-collapse: collapse; border-spacing: 0;}
+td, th{padding: 0;}
+ul, ol{list-style: none outside none;}
+h1, h2, h3 {line-height: 2; font-weight: normal;}
+h1{font-size: 0.9rem;}
+h2{font-size: 0.8rem;}
+h3{ font-size: 0.7rem;}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{color: #ccc;}
+
+.clearfix {
+	*zoom: 1;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	overflow: hidden;
+}
+/*css初始化 end*/
+/*公共样式 start*/
+html {
+	font-size: 20px;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+/*公共样式 end*/
+/*首页 start*/
+.cola_index_body {
+	background: url(../images/index_bg.jpg) no-repeat top center;
+	background-size: cover;
+	/*background-size: 100% 100%;*/
+	/*position: relative;*/
+	
+}
+.coI_rule a {
+	color: #fff;
+	font-size: 0.7rem;
+	display: block;
+	width: 3.6rem;
+	height: 1.65rem;
+	background-color: rgba(0,0,0,0.2);
+	text-align: center;
+	line-height: 1.65rem;
+	float: right;
+	margin-top: 0.3rem;
+	border-top-left-radius: 1rem;
+	border-bottom-left-radius: 1rem;
+}
+.coI_btn {
+	display: block;
+	width: 76%;
+	height: 2.525rem;
+	margin: 22.325rem auto 0rem;
+	font-size: 1rem;
+	color: #fff;
+	font-weight: bold;
+	line-height: 2.525rem;
+	text-align: center;
+	background-color: #fba01e;
+	border-radius: 1.5rem;
+}
+.coI_box {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,.7);
+	display: none;
+}
+.coI_box .coI_content {
+	width: 82%;
+	height: 14.5rem;
+	background: #fff;
+	margin: 6.5rem auto;
+	background: url(../images/index_box.png) no-repeat top center;
+	background-size: 100% 100%;
+}
+.coI_box .coI_content h2 {
+	font-size: 0.8rem;
+	font-weight: bold;
+	text-align: center;
+	color: #bf0a0a;
+	padding-top: 0.75rem;
+}
+.coI_box .coI_content p {
+	font-size: 0.65rem;
+	color: #000;
+	padding: 0.5rem 0.5rem 0px 0.75rem;
+}
+.coI_box .coI_content .coI_paddingTop0 {
+	padding-top: 0rem;
+}
+.coI_boxBtn {
+	display: block;
+	color: #fff;
+	font-size: 0.9rem;
+	font-weight: bold;
+	text-align: center;
+	width: 50%;
+	height: 2rem;
+	line-height: 2rem;
+	margin: 0 auto;
+	background-color: #FFA82C;
+	border-radius: 1rem;
+	margin-top: 0.5rem;
+}
+/*首页 end*/
+/*信息已提交  start*/
+.cola_infoSubmit_body,.cola_infoForm_body {
+	background-color: #ce1421;
+}
+.coIS_top_p1 {
+	text-align: center;
+	color: #fff;
+	font-size: 1.2rem;
+	padding-top: 2rem;
+}
+.coIS_top_p2 {
+	text-align: center;
+	color: #fff;
+	font-size: 0.7rem;
+}
+.coIS_main {
+	width: 100%;
+	height: 17.925rem;
+	padding: 0rem 0.75rem;
+	margin-top: 1rem;
+}
+.coIS_main_wrap {
+	width: 100%;
+	height: 100%;
+	background: url(../images/info_submit_bg.png) no-repeat top center;
+	background-size: cover;
+	text-align: center;
+}
+.coIS_main_wrap P {
+	color: #333;
+	font-size: 0.7rem;
+}
+.coIS_main_wrap .coIS_main_p1 {
+	padding-top: 10.75rem;
+}
+.coIS_main_wrap .coIS_btn {
+	display: inline-block;
+	width: 56%;
+	height: 2.15rem;
+	background-color: #ffa82c;
+	color: #fff;
+	font-size: 0.9rem;
+	line-height: 2.15rem;
+	text-align: center;
+	border-radius: 1rem;
+	font-weight: bold;
+	margin-top: 1.2rem;
+}
+.coIS_fosun_intro {
+	text-align: center;
+	margin: 2rem 0rem;
+}
+.coIS_fosun_intro h2 {
+	color: #fff;
+	font-size: 0.8rem;
+}
+.coIS_fosun_intro p {
+	color: #fff;
+	font-size: 0.7rem;
+}
+/*信息已提交  end*/
+/*填写信息 start*/
+.coIF_text_img {
+	width: 71%;
+	height: 2rem;
+	margin: 2.1rem auto 1.55rem;
+}
+.coIF_text_img img {
+	width: 100%;
+	height: 100%;
+}
+.coIF_main {
+	width: 100%;
+	height: 15.25rem;
+	padding: 0 0.75rem;
+}
+.coIF_main_wrap {
+	width: 100%;
+	height: 100%;
+	background: url(../images/info_form_bg.png) no-repeat top center;
+	background-size: 100% 100%;
+	padding: 1rem 0.5rem 2rem 0.5rem;
+}
+.coIF_main_wrap .coIF_divInput_wrap {
+	width: 100%;
+	height: 2.2rem;
+	background-color: #fff;
+	border: 0.05rem solid #e7dedf;
+}
+.coIF_iconDiv {
+	width: 15%;
+	height: 2.2rem;
+	text-align: center;
+	float: left;
+}
+.coIF_iconDiv img {
+	width: 0.925rem;
+	height: 1.5rem;
+	margin-top: 0.35rem;
+}
+.coIF_inputDiv {
+	width: 85%;
+	float: left;
+	height: 2.2rem;
+}
+.coIF_inputDiv input {
+	width: 90%;
+	height: 2rem;
+	font-size: 0.7rem;
+	border: none;
+	outline: none;
+	margin-top: 0.05rem;
+}
+.coIF_select,.coIF_name {
+	height: 2.2rem;
+	background-color: #fff;
+	border: 0.05rem solid #e7dedf;
+	font-size: 0.7rem;
+	padding: 0.1rem 0.75rem;
+}
+.coIF_select {
+	width: 40%;
+	float: left;
+	color: #ea514e;
+	line-height: 1.8rem;
+	position: relative;
+}
+.coIF_select img {
+	width: 0.775rem;
+	height: 0.425rem;
+}
+.coIF_selectValue {
+	display: inline-block;
+	width: 80%;
+	float: left;
+}
+.coIF_selectBox {
+	width: 100%;
+	height: 10rem;
+	background: #fff;
+	overflow: scroll;
+	position: absolute;
+	top: 2.2rem;left: 0; 
+	border: 0.05rem solid #e7dedf;
+	display: none;
+}
+.coIF_selectBox_item {
+	height: 2.2rem;
+	width: 100%;
+	border-bottom: 0.05rem solid #e7dedf;
+	text-align: center;
+	line-height: 2.2rem;
+}
+.coIF_name {
+	width: 57%;
+	float: right;
+}
+.coIF_name input {
+	width: 100%;
+	height: 1.8rem;
+	border: none;
+	outline: none;
+}
+.coIF_p1,.coIF_p2,.coIF_p3 {
+	color: #666;
+	font-size: 0.7rem;	
+}
+.coIF_p1 {
+	padding: 0.9rem 0 0.2rem 0;
+}
+.coIF_p2 {
+	padding: 0.5rem 0rem 0.2rem 0rem;
+}
+.coIF_p3 span {
+	color: #ea514e;
+}
+.coIF_submit {
+	display: block;
+    width: 65%;
+    height: 2.2rem;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 0.9rem;
+    margin: 1rem auto 0rem;
+    background-color: #FFA82C;
+    font-weight: bold;
+}
+/*填写信息 end*/
+
+
+/*媒体查询适配各种机型 start*/
+					/*iphone4和iphone5*/
+@media only screen and (max-width: 320px) {
+	html {
+		font-size: 18px;
+	}
+} 
+@media only screen and (min-width: 414px) {
+	html {
+		font-size: 22px;
+	}
+}
+					/*iphone4*/
+@media only screen and (max-height: 480px) {
+	.coI_btn {
+		margin: 19.325rem auto 0rem;
+	}
+	.coI_box .coI_content {
+		margin: 4.5rem auto;
+	}
+}
+					/*比iphone6 plus大的*/
+@media only screen and (min-width: 435px) {
+	.coI_btn {
+		margin: 24.325rem auto 0rem;
+	}
+	.coI_boxBtn {
+		margin-top: 1rem!important;
+	} 
+}
+/*媒体查询适配各种机型 end*/
